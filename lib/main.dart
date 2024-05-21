@@ -13,37 +13,35 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
-
-              // crossAxisAlignment: CrossAxisAlignment.center, // Various types of CrossAxisAlignment:
-              // crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start of the cross axis.
-               crossAxisAlignment: CrossAxisAlignment.end, // Aligns children at the end of the cross axis.
-              // crossAxisAlignment: CrossAxisAlignment.center, // Centers children along the cross axis.
-              // crossAxisAlignment: CrossAxisAlignment.stretch, // Sizes the children to fill the cross axis.
-              // crossAxisAlignment: CrossAxisAlignment.baseline, // Aligns children according to their baselines.
               children: <Widget>[
-                Container(
-                  height: 100.0,
-                  width: 200.0,
+               CircleAvatar(
+                 radius: 50.0,
+               backgroundImage: AssetImage('images/profile.jpg'),
+               ),
+                Text('Shareen Dandasi',style: TextStyle(
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily:'Pacifico',
                   color: Colors.white,
-                  child: Text('container1'),
                 ),
-                Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.green,
-                  child: Text('container2'),
                 ),
-                Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.red,
-                  child: Text('container3'),
+
+                Text('FLUTTER DEVLOPER',style: TextStyle(
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontFamily:'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontWeight: FontWeight.bold,
                 ),
+                ),
+
+
+
               ],
-            )
+            ),
         ),
       ),
     );
