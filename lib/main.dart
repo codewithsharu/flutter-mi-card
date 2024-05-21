@@ -18,8 +18,8 @@ class Myapp extends StatelessWidget {
             child: Column(
 
               // crossAxisAlignment: CrossAxisAlignment.center, // Various types of CrossAxisAlignment:
-              crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start of the cross axis.
-              //  crossAxisAlignment: CrossAxisAlignment.end, // Aligns children at the end of the cross axis.
+              // crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start of the cross axis.
+               crossAxisAlignment: CrossAxisAlignment.end, // Aligns children at the end of the cross axis.
               // crossAxisAlignment: CrossAxisAlignment.center, // Centers children along the cross axis.
               // crossAxisAlignment: CrossAxisAlignment.stretch, // Sizes the children to fill the cross axis.
               // crossAxisAlignment: CrossAxisAlignment.baseline, // Aligns children according to their baselines.
