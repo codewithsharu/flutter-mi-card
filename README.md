@@ -1,4 +1,2 @@
 # flutter-mi-card
-
-
-![mi-card-pic](https://github.com/codewithsharu/flutter-mi-card/assets/113088541/1b81189f-0847-4a81-9b42-806877bdfb2d)
+![image](https://github.com/codewithsharu/flutter-mi-card/assets/113088541/c402ab2d-3f70-4304-8a4f-c370b12d94cd)
