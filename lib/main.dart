@@ -16,18 +16,17 @@ class Myapp extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         body: SafeArea(
             child: Column(
-              // Various types of MainAxisAlignment:
-              // mainAxisAlignment: MainAxisAlignment.start, // Aligns children at the start of the main axis.
-              // mainAxisAlignment: MainAxisAlignment.end, // Aligns children at the end of the main axis.
-              // mainAxisAlignment: MainAxisAlignment.center, // Centers children along the main axis.
-              // mainAxisAlignment: MainAxisAlignment.spaceBetween, // Aligns children such that the space between them is evenly distributed.
-              // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Aligns children such that the space between them, and the space before and after them, is evenly distributed.
-              // mainAxisAlignment: MainAxisAlignment.spaceAround, // Aligns children such that the space before the first child, between each pair of adjacent children, and after the last child, is evenly distributed.
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+              // crossAxisAlignment: CrossAxisAlignment.center, // Various types of CrossAxisAlignment:
+              crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start of the cross axis.
+              //  crossAxisAlignment: CrossAxisAlignment.end, // Aligns children at the end of the cross axis.
+              // crossAxisAlignment: CrossAxisAlignment.center, // Centers children along the cross axis.
+              // crossAxisAlignment: CrossAxisAlignment.stretch, // Sizes the children to fill the cross axis.
+              // crossAxisAlignment: CrossAxisAlignment.baseline, // Aligns children according to their baselines.
               children: <Widget>[
                 Container(
                   height: 100.0,
-                  width: 100.0,
+                  width: 200.0,
                   color: Colors.white,
                   child: Text('container1'),
                 ),
